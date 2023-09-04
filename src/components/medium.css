@@ -1,0 +1,146 @@
+body{
+  font-family: 'PT Sans Caption', sans-serif;
+  height: 100vh; 
+  background: linear-gradient(180deg, #FFFCF4 58.97%, rgba(255, 255, 255, 0.00) 79.23%); 
+ 
+}
+
+.bg-yellow{
+  background: linear-gradient(180deg, #FFFCF4 58.97%, rgba(255, 255, 255, 0.00) 79.23%); 
+
+}
+
+.border-bottom-dark{
+  border-bottom: 1px solid rgba(41, 41, 41, 1);
+}
+
+
+.nav-btn{
+  display: flex;
+ width: 221px;
+ height: 60px;
+ padding: 10px;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ flex-shrink: 0;
+ border-radius: 6px;
+ border: 2px solid #E76A05;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 32px;
+ color: #E76A05;
+ }
+
+ .element{
+  position: absolute;
+/*  top: 160px; */
+  left : 0;
+  width: 100vh;
+  height: 115px;
+
+}
+
+h1{
+  color: #1B1010;
+text-align: left;
+font-family: PT Serif;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+p{
+  color: #232527;
+font-family: PT Sans Caption;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+
+.button{
+  border-radius: 6px;
+background: #E76A05;
+display: flex;
+width: 221px;
+height: 60px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+margin-top: 30px;
+}
+
+.btntext{
+  color: #FFFFFF;
+font-family: PT Sans Caption;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 200% */
+}
+
+a{
+  color:#FFFFFF;
+}
+
+ul{
+  list-style-type: none;
+
+}
+
+.social-items{
+  display: flex;
+  justify-content:left;
+  /*align-items: center; */
+ margin-left: -60px;
+ margin-top: 89px;
+  
+}
+
+.social-items li a{
+  margin: 15px;
+ 
+  
+}
+
+.social{
+  margin-left: 0px;
+}
+
+h2{
+  color: #1B1010;
+
+font-family: PT Serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+h3{
+  color: #1B1010;
+font-family: PT Sans Caption;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.content{
+  color: #1B1010;
+font-family: PT Sans Caption;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 22.4px; /* 160% */
+}
+
+
+.navbar-spacer {
+  height: 10rem; /* İstediğiniz boşluk yüksekliği */
+}
