@@ -10,7 +10,6 @@ const ProductCard = ({ imageUrl, title, price, onClick,details }) => (
       {/* <a href="#details" className="details">Detaylara git</a> */}
 
     </div>
-    <br />
   </div>
   
 );

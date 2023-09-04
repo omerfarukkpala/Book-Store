@@ -70,14 +70,14 @@ export default function BookProductPage() {
         </div>
         {selectedProduct && (
           <div className="row">
-            <div className="col-md-6 offset-md-3">
+            <div className="col-md-6 offset-md-2">
               <div className="product-details">
-                <h3>{selectedProduct.title} Detayları</h3>
+                <h3>{selectedProduct.title} деталь</h3>
                 <img src={selectedProduct.imageUrl} alt={selectedProduct.title} className="img-fluid" />
                 <p className="price">{selectedProduct.price}</p>
                 <p className="details">{selectedProduct.details}</p>
                 {/* Diğer ürün detayları buraya eklenir */}
-                <button onClick={() => setSelectedProduct(null)}>Kapat</button>
+                <button onClick={() => setSelectedProduct(null)}>закрывать</button>
               </div>
             </div>
           </div>
