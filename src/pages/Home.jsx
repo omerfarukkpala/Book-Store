@@ -22,22 +22,22 @@ export default function Home(props) {
             <div className="social">
               <ul className="social-items">
                 <li>
-                  <a href="#">
+                <a href="https://www.instagram.com/">
                     <img src="images/u_instagram.svg" alt="instagram" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://vk.com/wwkkk/">
                     <img src="images/u_vk-alt.svg" alt="wk" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://facebook.com/">
                     <img src="images/fi_facebook.svg" alt="facebook" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.youtube.com/">
                     <img src="images/fi_youtube.svg" alt="youtube" />
                   </a>
                 </li>
