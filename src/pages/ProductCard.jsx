@@ -8,10 +8,11 @@ const ProductCard = ({ imageUrl, title, price, onClick,details }) => (
       <p className="price">{price}</p>
       <p className="details">{details}</p>
       {/* <a href="#details" className="details">Detaylara git</a> */}
-{/* detay */}
+
     </div>
     <br />
   </div>
+  
 );
 
 export default ProductCard;
